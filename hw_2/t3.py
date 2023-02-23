@@ -30,3 +30,11 @@ k = int(input("Введите число: "))
 #     step.append(2**i)
 #     i += 1
 # print(f'{k} --> {step}')
+
+
+# i = 0
+# while (result := 2**i) <= k:
+#         print(result, end=' ')
+#         i += 1
+
+        
