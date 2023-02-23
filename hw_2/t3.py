@@ -6,6 +6,7 @@ os.system('cls')
 
 k = int(input("Введите число: "))
 
+
 # if k < 1:
 #     print('Натуральное число!')
 # else:
@@ -14,15 +15,18 @@ k = int(input("Введите число: "))
 #         print(2 ** i)
 #         i += 1
         
+
 # lst1 = [2**i for i in range (k) if 2**i <= k]
 # print(lst1)
+
 
 # lst2 = [2**i for i in range (1, k) if 2**i <= k]
 # print(lst2)
 
-step = []
-i = 0
-while 2**i <= k:
-    step.append(2**i)
-    i += 1
-print(f'{k} --> {step}')
+
+# step = []
+# i = 0
+# while 2**i <= k:
+#     step.append(2**i)
+#     i += 1
+# print(f'{k} --> {step}')
