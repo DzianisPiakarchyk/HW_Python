@@ -35,3 +35,19 @@ for letter in word:
     elif letter in 'ФЩЪ':
         score += 10
 print(f'Очки за слово {word_0}: {score}.')
+
+
+# score = {"a": 1, "я": 3}
+# total = 0
+# def scrub_sc(word):
+#     return sum(score.get(letter, 0) for letter in word.lower())
+# print(scrub_sc(input('Enter the word: ')))
+
+# slvr = {1: 'AETOULNSTRABEMHOPCT', 2: 'DGIKIMIYБЛО', 10: 'QQERHJBТГОРЕАП'}
+# slovo = input()
+# result = 0
+# for i in slovo:
+#     for key in slvr:
+#         if i.upper() in slvr[key]:
+#             result += key
+# print(result)
