@@ -11,3 +11,10 @@ for i in range(n):     # for i in arr:
     if arr[i] == X:    # if i == X:
         count += 1
 print(f'Число {X} встречается в списке вот столько раз: {count}.')
+
+
+# n = int(input())
+# list = [int(input()) for i in range(n)]
+# print(list)
+# x = int(input())
+# print(list.count(x))
