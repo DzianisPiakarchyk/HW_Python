@@ -70,7 +70,7 @@ def search_phone_book():
 
 
 def export_phone_book():
-    with open('phonebook.txt', "w") as file:
+    with open('phonebook.txt', "w", encoding = 'utf-8') as file:
         for number, item in phone_book.items():
             line = ",".join([number] + item)
             file.write(line + "\n")
@@ -78,7 +78,7 @@ def export_phone_book():
 
 
 def import_phone_book():
-    with open('phonebook.txt', "r") as file:
+    with open('phonebook.txt', "r", encoding = 'utf-8') as file:
         for line in file:
             line = line.strip().split(",")
             phone_book[line[0]] = line[1:]
